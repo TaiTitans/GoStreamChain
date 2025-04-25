@@ -40,9 +40,9 @@ WebRTC:	pion/webrtc (native Golang library)
 
 Blockchain:	Solidity + Hardhat (or Foundry)
 
-Blockchain Layer:	Ethereum / Polygon / BNB Chain
+Blockchain Layer:	Ethereum
 
-Event Listener:	Golang + go-ethereum / ethers.js
+Event Listener:	Golang + go-ethereum
 
 Cloudflare Tunnel:	To expose Golang WebRTC & API
 
@@ -122,13 +122,13 @@ Giữ WebRTC như một channel song song (để đảm bảo realtime khi block
 
 Backend API:	Golang (Gin)
 
-WebRTC:	pion/webrtc (native Golang lib)
+WebRTC:	pion/webrtc
 
-Blockchain:	Solidity + Hardhat (hoặc Foundry)
+Blockchain:	Solidity + Hardhat
 
-Blockchain Layer:	Ethereum / Polygon / BNB Chain
+Blockchain Layer:	Ethereum
 
-Event Listener:	Golang + go-ethereum / ethers.js
+Event Listener:	Golang + go-ethereum 
 
 Cloudflare Tunnel:	Để expose Golang WebRTC & API
 
@@ -169,8 +169,5 @@ Realtime (WebRTC).
 Cloudflare đảm bảo mạng toàn cầu.
 
 Không phụ thuộc vào WebSocket truyền thống.
-
----
-Here's the English translation of the provided text:
 
 ---
