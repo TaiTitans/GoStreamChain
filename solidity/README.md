@@ -5,9 +5,9 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
+Chạy local Hardhat node:
 npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+Deploy contract lên local:
+npx hardhat run scripts/deploy.js --network localhost
+Xong deploy → lấy contract address để phục vụ cho app GoStreamChain.
 ```
