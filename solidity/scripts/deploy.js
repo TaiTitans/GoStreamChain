@@ -1,8 +1,13 @@
+const hre = require("hardhat");
+
 async function main() {
-    const Signaling = await ethers.getContractFactory("Signaling");
-    const signaling = await Signaling.deploy();
-    await signaling.deployed();
-    console.log("Signaling deployed to:", signaling.address);
+    const Signaling = await hre.ethers.getContractFactory("Signaling");
+    const signaling = await Signaling.deploy({
+        gasPrice: hre.ethers.parseUnits("10", "gwei"), 
+        gasLimit: 3000000,
+    });
+
+    console.log("Signaling deployed to:", await signaling.getAddress());
 }
 
 main().catch((error) => {
